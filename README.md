@@ -35,7 +35,7 @@ source install/setup.bash
 ---
 
 ## 2. Visualization (RViz)
-*(Open a **new terminal**)*
+
 ### Option A: Run RViz remotely via SSH (recommended only if needed)
 
 Connect with X forwarding:
