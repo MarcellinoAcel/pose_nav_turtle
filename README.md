@@ -136,6 +136,6 @@ You now have:
 * RViz visualization running (remote or local)
 * Localization active
 * Your navigation package launched
-* Additional custom nodes running in separate terminals
+* Additional custom nodes for robot target pose and task
 
 Happy robot testing!
