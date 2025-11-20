@@ -69,6 +69,13 @@ Connect to the robot:
 ssh ubuntu@192.168.185.3
 ```
 
+Source workspace:
+
+```bash
+cd ~/turtlebot4_delivery
+source install/setup.bash
+```
+
 Run localization with your map:
 
 ```bash
