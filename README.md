@@ -4,7 +4,7 @@ This guide explains how to set up your workspace, build the project, and run Tur
 
 ---
 
-## 📁 1. Create Workspace & Build
+## 1. Create Workspace & Build
 
 1. Create a workspace:
 
@@ -34,7 +34,7 @@ source install/setup.bash
 
 ---
 
-## 🖥️ 2. Tab 1 — Visualization (RViz)
+## 2. Tab 1 — Visualization (RViz)
 
 ### Option A: Run RViz remotely via SSH (recommended only if needed)
 
@@ -61,7 +61,7 @@ ros2 launch turtlebot4_viz view_robot.launch.py
 
 ---
 
-## 📡 3. Tab 2 — Localization
+## 3. Tab 2 — Localization
 
 Connect to the robot:
 
@@ -72,7 +72,7 @@ ssh ubuntu@192.168.185.3
 Run localization with your map:
 
 ```bash
-ros2 launch turtlebot4_navigation localization.launch.py map:=/path/to/map
+ros2 launch turtlebot4_navigation localization.launch.py map:=src/pose_nav_turtle/maps/map_uts_kel1.yaml
 ```
 
 In RViz:
@@ -81,7 +81,7 @@ In RViz:
 
 ---
 
-## 🤖 4. Tab 3 — Run Your Navigation Package
+## 4. Tab 3 — Run Your Navigation Package
 
 Connect again:
 
@@ -106,7 +106,7 @@ Then test navigation using **Nav2 Goal** in RViz.
 
 ---
 
-## ⚙️ 5. Tab 4 — Run Additional Nodes
+## 5. Tab 4 — Run Additional Nodes
 
 Connect once more:
 
@@ -129,7 +129,7 @@ ros2 run pose_nav_turtle pose_nav_turtle
 
 ---
 
-## ✅ You’re Ready!
+## You’re Ready!
 
 You now have:
 
