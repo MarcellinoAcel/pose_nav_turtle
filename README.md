@@ -99,7 +99,7 @@ source install/setup.bash
 Launch your navigation node:
 
 ```bash
-ros2 launch pose_nav_turtle uts_nav.launch.py
+ros2 launch pose_nav_turtle run_nav.launch.py
 ```
 
 Then test navigation using **Nav2 Goal** in RViz.
