@@ -34,8 +34,8 @@ source install/setup.bash
 
 ---
 
-## 2. Tab 1 — Visualization (RViz)
-
+## 2. Visualization (RViz)
+*(Open a **new terminal**)*
 ### Option A: Run RViz remotely via SSH (recommended only if needed)
 
 Connect with X forwarding:
@@ -61,8 +61,8 @@ ros2 launch turtlebot4_viz view_robot.launch.py
 
 ---
 
-## 3. Tab 2 — Localization
-
+## 3. Localization
+*(Open a **new terminal**)*
 Connect to the robot:
 
 ```bash
@@ -81,8 +81,8 @@ In RViz:
 
 ---
 
-## 4. Tab 3 — Run Your Navigation Package
-
+## 4. Run Your Navigation Package
+*(Open a **new terminal**)*
 Connect again:
 
 ```bash
@@ -106,8 +106,8 @@ Then test navigation using **Nav2 Goal** in RViz.
 
 ---
 
-## 5. Tab 4 — Run Additional Nodes
-
+## 5. Run Additional Nodes
+*(Open a **new terminal**)*
 Connect once more:
 
 ```bash
