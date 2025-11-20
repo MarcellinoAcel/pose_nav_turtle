@@ -72,7 +72,7 @@ ssh ubuntu@192.168.185.3
 Run localization with your map:
 
 ```bash
-ros2 launch turtlebot4_navigation localization.launch.py map:=src/pose_nav_turtle/maps/map_uts_kel1.yaml
+ros2 launch pose_nav_turtle localization.launch.py map:=src/pose_nav_turtle/maps/map_uts_kel1.yaml
 ```
 
 In RViz:
